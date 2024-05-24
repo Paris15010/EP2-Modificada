@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main{
+    margin: auto;
+}
+header{
+    display: flex;
+    background-color: #021E73;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+}
+ul a{
+    text-decoration: none;
+}
+.contenedor1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.menu{
+    display: flex;
+    gap: 2rem;
+}
+hr{
+    margin-top: 20px;
+    box-shadow: rgba(128, 128, 128, 0.726) 0px 1px 3px;
+}
+
+.menu li{
+    list-style-type: none;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+}
+#especial{
+    border-bottom: 5px solid green;
+}
+.ingresar{
+    border-radius: 20px;
+    padding: 8px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin-left: 10%;
+}
+.menu1{
+    height: 60px;
+}
+.menu1 .menu-nav a{
+    text-decoration: none;
+}
+.menu-nav{
+    height: 60px;
+    background-color: #f9f9f9;
+    z-index: 99;
+    padding: 0 100px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.445);
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+.menu-nav a:first-child{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+.menu-nav a{
+    line-height: 60px;
+    color: rgba(0, 0, 0, 0.918);
+    font-size: 14px;
+    margin-right: 30px;
+}
+#cuerpo{
+    display: flex;
+    gap: 82px;
+}
+.productos{
+    background-color: darkred;
+}
+#articulos{
+    background-color: aqua;
+    margin: 5px;
+}
+.section-body{
+    margin-bottom: 0;
+    margin-top: 0;
+    max-width: 1440px;
+    margin-left: 144px;
+    margin-right: 144px;
+}
+.product-content{
+    display: flex;
+    gap: 82px;
+
+}
+.product-content-nav{
+    flex-basis: 150px;
+    padding-bottom: 1.6rem;
+    padding-top: 1.6rem;
+}
+.product-content-nav section h4{
+    font-weight: 600;
+    margin-top: 2.4rem;
+    font-size: 1.9rem;
+    text-align: center;
+}
+.product-content-nav section ul li{
+    margin-bottom: 1.6rem;
+    margin-top: 1.6rem;
+}
+.product-content-nav section ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+    display: flex;
+}
+.product-content-body{
+    flex: 1 1 0;
+    padding-top: 4rem;
+}
+.hr-div-product{
+    border: 2px color rgba(0, 0, 0, 0.1);
+    margin-bottom: 3.2rem;
+}
+.menu-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.385;
+    padding-bottom: 4.8rem;
+}
+.section-product{
+    white-space: nowrap;
+}
+.section-product h2{
+    font-weight: 700;
+    font-size: 24px;
+}
+.section-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sub-section{
+    padding: 0;
+    margin-bottom: 3.2rem;
+    display: flex;
+    position: relative;
+    text-align: left;
+    flex: 50%;
+    align-items: center;
+    gap: 15px;
+}
+.sub-section h3{
+    font-size: 1.9rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    white-space: pre-wrap;
+}
+.image-product-container{
+    height: 148px;
+    width: 148px;
+    min-width: 148px;
+}
+.image-product-content img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.menu-title-product{
+    width: 834px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.contenedor2{
+    width: 100%;
+    background: #021E73;
+    justify-content: space-between;
+    padding: 20px;
+}
+.menu2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.contenedor2 .menu2 a{
+    color: white;
+    text-decoration: none;
+}
+.pie .menu2 li{
+    color: white;
+}
+.redes{
+    display: flex;
+    position: relative;
+    left: 10px;
+    gap: 20px;
+    top: 40px;
+}
+.redes a{
+    font-size: 30px;
+}
+.redes i{
+    color: black;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, .35);
+    transition: .3s ease;
+}
+.fa-youtube:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 15px red;
+}
+.fa-twitter:hover{
+    background-color: #1DA1F2;
+    color: white;
+    box-shadow: 0 0 15px #1DA1F2;
+}
+.fa-instagram:hover{
+    background-color: #C13584;
+    color: white;
+    box-shadow: 0 0 15px #C13584;
+}
+.fa-facebook:hover{
+    background-color: #021E73;
+    color: white;
+}
+.libro{
+    position: relative;
+    left: 845px;
+}
+.end{
+    text-align: center;
+    color: #00000069;
+    font-size: 12px;
+}
+.final{
+    width: 500px;
+}
+
+
